@@ -31,7 +31,7 @@ body {
 }
 
 .header__link {
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   text-underline-position: under;
 }
 
