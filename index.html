@@ -9,24 +9,28 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <!-- шапка -->
       <nav class="nav__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-            <a class="header__link_active" href="#0"> главная </a>
+            <a class="header__link_active" href="#"> главная </a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#0"> посмотреть лоты </a>
+            <a class="header__link" href="#"> посмотреть лоты </a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#0"> об аукционе </a>
+            <a class="header__link" href="#"> об аукционе </a>
           </li>
         </ul>
       </nav>
       <a class="header__logo">
-        <img class="header__logo-image" src="./images/logo-black.svg" />
+        <img 
+          class="header__logo-image" 
+          src="./images/logo-black.svg"
+          alt="Логотип с текстом 'Оно тебе надо'"
+        />
       </a>
       <aside class="address">
         <address class="header__address">
@@ -40,10 +44,27 @@
       </aside>
     </header>
     <main>
-      <!-- основная часть -->
-      <cover class="cover">
-        <!-- оно тебе надо -->
-      </cover>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text">
+            О<span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="aligned-text-center">
+            те<span class="letter-spacing-extended">бе</span>
+          </span>
+          <span class="aligned-text-right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+          </span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">
+            Сделать ставку
+          </button>
+        </div>
+      </section>
       <section class="lots"></section>
       <div class="about"></div>
     </main>
