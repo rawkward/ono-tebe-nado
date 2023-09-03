@@ -17,8 +17,6 @@ button {
 
 .body {
   background-color: #fff;
-  width: 1440px;
-  margin: auto;
 }
 
 .header {
@@ -97,6 +95,7 @@ button {
   height: 100%;
   padding: 165px 50px 237px 50px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   position: relative;
   z-index: 1;
@@ -113,8 +112,6 @@ button {
 
 .aligned-text-center {
   align-self: center;
-  padding-top: 20px;
-  padding-left: 45px;
 }
 
 .aligned-text-right {
@@ -147,7 +144,7 @@ button {
 }
 
 .bet-button {
-  font-family: Raleway;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   line-height: 28px;
@@ -163,7 +160,6 @@ button {
 
 .lots__heading {
   padding-left: 40px;
-  padding-bottom: 27px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -179,6 +175,7 @@ button {
 .lots__card-list-item {
   width: 430px;
   min-height: 450px;
+  margin-top: 27px;
   position: relative;
   color: #fff;
 }
@@ -219,7 +216,7 @@ button {
 }
 
 .card__title {
-  font-family: Raleway;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   text-decoration-line: underline;
@@ -282,12 +279,8 @@ button {
   padding-top: 6px;
 }
 
-.about__text:last-child {
-  padding-top: 3px;
-}
-
 .footer {
-  margin: 180px 50px 90px;
+  margin: 184px 50px 90px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
